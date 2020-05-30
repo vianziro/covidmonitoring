@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../src/style/style.css">
+ 
+    <title>Covid Monitoring</title>
+</head>
+<body>
+    <header>
+        <menu-atas></menu-atas>
+    </header>
+    <main>
+        <br>
+        <div class= "text-center">
+            <h2> Indonesia Covid Update
+            </h2>
+            <hr>
+        </div>
+     
+          
+          <br>
+  
+           <div class="container">
+            <div class="row">
+              <div class="col-4">
+                <div class="card text-white bg-warning mb-3" style="max-width: 18rem;">
+                    <div class="card-header">Kasus Positif</div>
+                    <div class="card-body">
+                    <h5 class="card-title datas" id="positif">000000</h5>
+                   
+                    </div>
+                </div>
+  
+                <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
+                    <div class="card-header">Kasus Kematian</div>
+                    <div class="card-body">
+                    <h5 class="card-title datas " id="kematian">000000</h5>
+                   
+                    </div>
+                </div>
+  
+                <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+                    <div class="card-header">Kasus Sembuh</div>
+                    <div class="card-body">
+                    <h5 class="card-title datas" id="sembuh">000000</h5>
+                   
+                    </div>
+                </div>
+               
+              </div>
+  
+              <div class="col-8 pie">
+            <canvas id="chartKu"></canvas>
+                                     
+              
+              </div>
+            </div>
+          </div>
+
+
+          <br>
+          <br>
+
+          <iframe style="height:550px; width:100%; border: none;" src="https://databoks.katadata.co.id/datapublishembed/114947/data-terkini-kasus-covid-19-di-indonesia-minggu-54"></iframe>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+        <view-utama></view-utama>
+
+          
+      
+
+    </main>
+    <footer></footer>
+    
+
+
+ 
+</body>
+<script src="../src/script/script.js"> </script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+<script src="https://unpkg.com/topojson-client@3"></script>
+<script src="../src/script/component/view-utama.js"></script>
+</html>
