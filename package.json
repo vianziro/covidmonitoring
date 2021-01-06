@@ -9,7 +9,7 @@
   "author": "sepyan purnama kristanto",
   "license": "ISC",
   "devDependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "babel-loader": "^8.1.0",
     "css-loader": "^3.5.3",
     "d3": "^5.16.0",
